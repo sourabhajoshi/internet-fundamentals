@@ -339,7 +339,7 @@ Same with DNS:
 
 - Opens the website
 
-## **6. What is a Web Browser?**
+### **6. What is a Web Browser?**
 
 A web browser is a software application (like Chrome, Firefox, Safari, Edge) that lets you view and interact with websites on the internet.
 
