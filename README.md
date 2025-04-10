@@ -254,3 +254,151 @@ And you enter your credit card number:
 
 HTTPS encrypts your data. Only Amazon's server can read it. No one in the middle (Wi-Fi provider, ISP, hacker) can steal it.
 
+### **4. What is a Domain Name?**
+
+A domain name is the human-friendly address you type in your browser to visit a website.
+
+Example:
+www.google.com, youtube.com, facebook.com — all are domain names.
+
+It’s like the name of a shop, so people don’t have to remember the shop’s GPS coordinates (which are like IP addresses).
+
+Simple Analogy
+Real World
+A house has a street address (e.g., 123 Main St).
+
+You use the address to find the house.
+
+Internet World
+A website has an IP address (e.g., 142.250.190.68).
+
+But that’s hard to remember.
+
+So instead, we use a domain name like google.com.
+
+The domain name points to the IP address, just like your friend’s name points to their phone number in your contacts.
+
+4.1 How Domain Names Work
+
+You type www.google.com in your browser.
+
+Your browser asks a DNS (Domain Name System) to find the IP address of that domain.
+
+DNS replies with something like: 142.250.190.68
+
+Your browser connects to that address and loads the website.
+
+So, domain names make it easy for humans to browse the internet without dealing with complex numbers.
+
+4.2  Parts of a Domain Name
+
+Take www.example.com — here’s how it breaks down:
+
+- www :	Subdomain (often optional)
+- example :	Main domain name
+- .com : Top Level Domain (TLD)
+
+
+### **5.What is DNS?**
+
+DNS stands for Domain Name System.
+
+It’s like the phonebook of the internet.
+
+It translates domain names (like google.com) into IP addresses (like 142.250.190.78) — which computers use to find each other.
+
+Real Life Analogy
+Imagine:
+You want to call your friend “John”, but your phone needs his phone number.
+
+So:
+
+- You look up “John” in your contacts
+
+- Your phone finds the number (e.g., 123-456-7890)
+
+- You call him!
+
+Same with DNS:
+
+- You type facebook.com
+
+- DNS finds the IP address
+
+- Your browser “calls” (connects to) that IP to open the site
+
+5.1 DNS Steps
+
+- You type example.com
+
+- Computer asks resolver: “What’s the IP?”
+
+- Resolver asks: Root Server → TLD Server → Authoritative Server
+
+- Gets IP like 93.184.216.34
+
+- Opens the website
+
+## **6. What is a Web Browser?**
+
+A web browser is a software application (like Chrome, Firefox, Safari, Edge) that lets you view and interact with websites on the internet.
+
+You type www.google.com → the browser loads Google’s homepage → you can search, click, scroll, etc.
+
+Main Job of a Browser
+A browser’s main job is to:
+
+- Take a web address (like https://example.com)
+
+- Get the website files from the internet (HTML, CSS, JS, images)
+
+- Understand those files
+
+- Show the website nicely on your screen
+
+6.1 How Does a Browser Work? (Step-by-Step)
+Let’s say you type www.wikipedia.org and hit enter.
+
+Step 1: Convert Name to IP (DNS Lookup)
+Browser says: “Where is wikipedia.org?”
+
+DNS translates it to an IP address like 208.80.154.224
+
+Step 2: Make an HTTP/HTTPS Request
+The browser sends a request to the server at that IP.
+
+“Hey server, give me the homepage!”
+
+Step 3: Get Response from Server
+The server sends back:
+
+HTML (structure of the page)
+
+CSS (styling, colors, fonts)
+
+JavaScript (interactivity)
+
+Images, fonts, videos, etc.
+
+Step 4: Render the Page
+Now the browser gets to work:
+
+Parses HTML – reads and builds the structure of the page (DOM).
+
+Applies CSS – styles the page: layout, colors, fonts.
+
+Runs JavaScript – adds interactivity: dropdowns, buttons, forms.
+
+Paints the screen – finally shows the page to you.
+
+6.2 What Happens When You Press Enter in the Browser?
+
+- DNS lookup for the domain
+
+- Send HTTPS request to the server
+
+- Server replies with HTML
+
+- Browser fetches CSS, JS, images, etc.
+
+- Renders and displays the page
