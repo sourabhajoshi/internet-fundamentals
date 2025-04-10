@@ -1,4 +1,4 @@
-## 🌐 Internet Fundamentals
+## Internet Fundamentals
 
 ### **1. What is the Internet?**
 
@@ -8,7 +8,7 @@ It enables users to access and share information across the world using technolo
 
 Key Concepts of Internet
 
-🧩 1. IP Address (Internet Protocol Address)
+1. IP Address (Internet Protocol Address)
 What it is:
 A unique number assigned to every device connected to the internet.
 
@@ -24,7 +24,7 @@ When you visit a website, your browser needs to know where to go.
 
 Websites also have IP addresses — the IP tells your browser exactly which computer (server) to talk to.
 
-📖 2. DNS (Domain Name System)
+2. DNS (Domain Name System)
 
 What it is:
 A translator or phonebook for the internet.
@@ -36,7 +36,7 @@ You don’t need to memorize numbers.
 
 Without DNS, you’d have to remember IP addresses instead of website names!
 
-🧑‍💻 3. Client and Server
+3. Client and Server
 
 What it is:
 Client: Your computer or phone (the device that asks for information).
@@ -48,7 +48,7 @@ You (client) go to a restaurant and order food.
 
 The kitchen (server) prepares and serves the food.
 
-📬 4. HTTP / HTTPS (HyperText Transfer Protocol)
+4. HTTP / HTTPS (HyperText Transfer Protocol)
 
 What it is:
 A set of rules used to transfer data over the internet.
@@ -67,7 +67,7 @@ Passwords, credit cards, personal data
 
 Uses SSL/TLS encryption to make the connection secure
 
-📦 5. Packets
+5. Packets
 
 What it is:
 Data you send/receive over the internet is broken into tiny chunks called packets.
@@ -77,7 +77,7 @@ Sending a long letter in small envelopes — the receiver puts the pieces back t
 
 Even videos, images, and text are sent as packets.
 
-🛣️ 6. Routers and Switches
+6. Routers and Switches
 
 What they are:
 Devices that help direct traffic on the internet.
@@ -90,7 +90,7 @@ Guide packets from one place to another.
 Switches:
 Connect devices within a local network (like inside your home or office).
 
-📡 7. Undersea Cables and Satellites
+7. Undersea Cables and Satellites
 
 What they are:
 Huge fiber-optic cables under oceans that connect countries.
@@ -102,7 +102,7 @@ They carry most of the world’s internet traffic.
 
 Without them, global websites wouldn't load!
 
-🔐 8. Encryption
+8. Encryption
 
 What it is:
 A way to scramble data so that only the intended recipient can read it.
