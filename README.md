@@ -1,6 +1,6 @@
 ## 🌐 Internet Fundamentals
 
-### **What is the Internet?**
+### **1. What is the Internet?**
 
 The Internet is a global network of interconnected computers and devices that communicate using a set of standardized protocols.
 
@@ -145,3 +145,112 @@ It sends back data (HTML, images, buttons, etc.).
 
 🖥️ Step 5: Your Browser Shows It
 Your browser puts all the pieces together and shows you the Google page on your screen.
+
+### **2. What is HTTP?**
+
+HTTP stands for HyperText Transfer Protocol.
+
+It is the foundation of data communication on the World Wide Web. When you visit a website in your browser, your device and the website’s server use HTTP to communicate.
+
+Example : Think of it Like This:
+
+You = The Client (Browser)
+
+Restaurant = The Server (Website)
+
+- You go to a restaurant and ask for a menu → This is like your browser asking a website for a page using HTTP.
+
+- The waiter brings the food → This is the website sending the webpage back to your browser.
+
+- You enjoy your meal (you see the website!).
+
+How HTTP Works Step-by-Step
+
+- You type www.example.com in your browser.
+
+- Your browser sends an HTTP request to the server that hosts that website.
+
+- The server receives the request, processes it.
+
+- It sends back an HTTP response (like the web page content).
+
+- Your browser receives the response and shows the page on your screen.
+
+Common HTTP Methods
+
+- GET : Requests data from a server
+- POST : Sends data to a server
+- PUT : Updates data on a server
+- DELETE : Deletes data from a server
+- PATCH : Partially updates data
+
+### **3. What is HTTPS?**
+
+HTTPS stands for HyperText Transfer Protocol Secure
+
+It’s the secure version of HTTP, which is the protocol your browser uses to communicate with websites.
+
+Simple Explanation
+
+Imagine:
+You’re sending a private letter (like your password or credit card info) to a website.
+
+If you use HTTP, anyone in between (hackers, attackers) can read your letter.
+
+If you use HTTPS, the letter is locked in a safe box that only the website can open.
+
+That’s what encryption does in HTTPS — it locks your data so only the website you trust can read it.
+
+3.1 What Makes HTTPS Secure?
+
+HTTPS adds security to HTTP using three main things:
+
+1. Encryption 🔒
+Your data is scrambled while it travels between your browser and the website — so no one can read it even if they intercept it.
+
+2. Authentication ✅
+You know you’re talking to the real website, not a fake one. This is done using SSL certificates.
+
+3. Data Integrity 🛡️
+Your data can't be changed or tampered with while it's being transferred.
+
+3.2 What is SSL/TLS?
+
+To make HTTPS work, websites use something called an SSL certificate (or TLS, its modern version).
+
+SSL = Secure Sockets Layer
+
+TLS = Transport Layer Security (newer and better)
+
+This certificate:
+
+Proves the website is real.
+
+Starts the encryption process between browser and server.
+
+So technically, HTTPS = HTTP + SSL/TLS
+
+3.3 How to Know a Site Uses HTTPS?
+
+Look in your browser’s address bar:
+
+✅ You’ll see a lock icon 🔒
+
+✅ The URL starts with https:// instead of http://
+
+Examples:
+
+https://www.google.com ✅
+
+http://example.com 🚫 (Not secure)
+
+🧾 Real Life Example
+When you go to a site like:
+
+
+https://www.amazon.com
+
+And you enter your credit card number:
+
+HTTPS encrypts your data. Only Amazon's server can read it. No one in the middle (Wi-Fi provider, ISP, hacker) can steal it.
+
