@@ -1,4 +1,4 @@
-# 🌐 Internet Fundamentals
+# Internet Fundamentals
 
 ---
 
@@ -10,7 +10,7 @@ It enables users to access and share information across the world using technolo
 
 ---
 
-### 🔑 Key Concepts of Internet
+### Key Concepts of Internet
 
 ---
 
@@ -121,32 +121,32 @@ Protects your personal data — especially important for banking, emails, passwo
 
 ---
 
-### 🧠 Note: Imagine You Want to Visit a Website
+### Note: Imagine You Want to Visit a Website
 
 Let’s say you want to visit `www.google.com`. Here’s what happens step by step:
 
-1. 🧍‍♂️ **You = The User**  
+1. **You = The User**  
    You open your browser (like Chrome or Safari) and type `www.google.com`.
 
-2. 📞 **Step 1: Ask for the Address (DNS)**  
+2. **Step 1: Ask for the Address (DNS)**  
    Your browser doesn’t know where Google lives, so it asks a special phonebook called DNS:  
    _"Hey, what is the address (IP address) of www.google.com?"_  
    DNS replies:  
    _"The address is 142.250.190.36"_
 
-3. 🚗 **Step 2: Go to the Address (Connect)**  
+3. **Step 2: Go to the Address (Connect)**  
    Your browser sends a request to that address, like a car driving to Google’s house.
 
-4. 📬 **Step 3: Request the Page**  
+4. **Step 3: Request the Page**  
    Your browser knocks on the door:  
    _"Hey Google! Can you give me your homepage?"_
 
-5. 📦 **Step 4: Google Sends the Page**  
+5. **Step 4: Google Sends the Page**  
    Google replies:  
    _"Sure! Here’s the homepage."_  
    (It sends HTML, images, buttons, etc.)
 
-6. 🖥️ **Step 5: Your Browser Shows It**  
+6. 🖥**Step 5: Your Browser Shows It**  
    Your browser puts all the pieces together and shows you the Google page on your screen.
 
 ---
@@ -171,7 +171,7 @@ When you visit a website in your browser, your device and the website’s server
 
 ---
 
-### 🧭 How HTTP Works Step-by-Step
+### How HTTP Works Step-by-Step
 
 1. You type `www.example.com` in your browser  
 2. Browser sends an **HTTP request** to the server  
@@ -198,7 +198,7 @@ It’s the secure version of HTTP.
 
 ---
 
-### 🔒 Simple Explanation
+### Simple Explanation
 
 Imagine:  
 You’re sending a private letter (like a password or credit card) to a website.
@@ -214,13 +214,13 @@ That’s **encryption** — it keeps your data safe.
 
 HTTPS adds security using three things:
 
-1. **Encryption** 🔒  
+1. **Encryption**   
    - Scrambles data so no one else can read it
 
-2. **Authentication** ✅  
+2. **Authentication**   
    - Proves the website is real (using SSL certificates)
 
-3. **Data Integrity** 🛡️  
+3. **Data Integrity** 
    - Makes sure the data isn’t changed in transit
 
 ---
@@ -236,7 +236,7 @@ Websites use **SSL certificates** (or TLS) to make HTTPS work.
 - Proves the website is real  
 - Starts encryption between browser and server
 
-🔁 Technically:  
+Technically:  
 `HTTPS = HTTP + SSL/TLS`
 
 ---
@@ -245,16 +245,16 @@ Websites use **SSL certificates** (or TLS) to make HTTPS work.
 
 Look in your browser’s address bar:
 
-✅ Lock icon 🔒  
-✅ URL starts with `https://`
+Lock icon 🔒  
+URL starts with `https://`
 
 **Examples:**
-- `https://www.google.com` ✅  
-- `http://example.com` ❌ (Not secure)
+- `https://www.google.com` (Secure)
+- `http://example.com` (Not secure)
 
 ---
 
-### 🧾 Real Life Example
+### Real Life Example
 
 Visit: `https://www.amazon.com`  
 Enter your credit card.
@@ -276,7 +276,7 @@ A **domain name** is the human-friendly address you type in your browser.
 
 ---
 
-### 🏠 Simple Analogy
+### Simple Analogy
 
 - **Real World:**  
   A house has a street address (`123 Main St`)
@@ -317,7 +317,7 @@ It translates domain names (like `google.com`) into IP addresses (`142.250.190.7
 
 ---
 
-### ☎️ Real Life Analogy
+### Real Life Analogy
 
 You want to call “John”, but you only know his name.
 
@@ -354,7 +354,7 @@ You type `www.google.com` → browser loads Google’s homepage → you interact
 
 ---
 
-### 🧠 Main Job of a Browser
+### Main Job of a Browser
 
 - Accept web address (e.g., `https://example.com`)  
 - Get website files from the internet (HTML, CSS, JS)  
