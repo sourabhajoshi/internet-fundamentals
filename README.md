@@ -146,7 +146,7 @@ Let’s say you want to visit `www.google.com`. Here’s what happens step by st
    _"Sure! Here’s the homepage."_  
    (It sends HTML, images, buttons, etc.)
 
-6. 🖥**Step 5: Your Browser Shows It**  
+6. **Step 5: Your Browser Shows It**  
    Your browser puts all the pieces together and shows you the Google page on your screen.
 
 ---
@@ -160,7 +160,7 @@ When you visit a website in your browser, your device and the website’s server
 
 ---
 
-### 🍽️ Example: Think of it Like This
+### Example: Think of it Like This
 
 - **You = The Client (Browser)**  
 - **Restaurant = The Server (Website)**
@@ -181,7 +181,7 @@ When you visit a website in your browser, your device and the website’s server
 
 ---
 
-### 🛠️ Common HTTP Methods
+### Common HTTP Methods
 
 - `GET` : Requests data from a server  
 - `POST` : Sends data to a server  
