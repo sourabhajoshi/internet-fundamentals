@@ -121,7 +121,7 @@ Protects your personal data — especially important for banking, emails, passwo
 
 ---
 
-### Note: Imagine You Want to Visit a Website
+### Note: Imaginey you want to visit a website
 
 Let’s say you want to visit `www.google.com`. Here’s what happens step by step:
 
